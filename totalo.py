@@ -1,10 +1,3 @@
-"""
-
-Kod till en automatisk rullgardin, skriven för att köras med en esp32 flashad med micropython
-Kommando för att köra med ampy: ampy -p COM8 -b 115200 --delay 3 run .\totalo.py 
-
-"""
-
 import machine
 import utime as time
 import ntptime
